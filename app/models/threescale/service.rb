@@ -1,0 +1,2 @@
+class Threescale::Service
+end
