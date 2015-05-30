@@ -47,3 +47,4 @@ end
 gem 'dotenv'
 gem 'rack-cas'
 gem "haml-rails", "~> 0.9"
+gem 'json'
