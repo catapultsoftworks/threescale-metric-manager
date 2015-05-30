@@ -10,8 +10,8 @@ class Threescale::ServiceList
 	end
 
   private
-	def parsed_response( json_response )
-	  json_response
+	def parsed_response( json )
+	  json
 	end
 
 end
