@@ -8,7 +8,7 @@ class Threescale::Api
 
 	def get( path, options = {})
 	  response = Net::HTTP.get_response(uri(path, options))
-      response.body
+      JSON.parse(response.body)
     end
 
   private

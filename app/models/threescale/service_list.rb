@@ -11,7 +11,9 @@ class Threescale::ServiceList
 
   private
 	def parsed_response( json )
-	  json
+	  json["services"].map do |service| 
+	  	Threescale::Models::Service.new(service["service"])
+	  end
 	end
 
 end
